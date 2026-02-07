@@ -349,7 +349,8 @@ nav {
   gap: 20px;
 }
 
-.features h2 {
+.features h2,
+.changelog h2 {
   font-weight: 100;
   font-size: 28px;
   padding-left: 2px;
@@ -363,10 +364,101 @@ nav {
 
 .feature-card {
   background-color: #1b1913;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   border-radius: 12px;
   padding: 20px;
 }
 
 .feature-card img {
   width: 100%;
+}
+
+.feature-card a {
+  color: #f54e00;
+  text-decoration: none;
+}
+
+.feature-desc {
+  color: #9a9996;
+}
+
+.changelog {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.changelog-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.changelog-card {
+  background-color: #1b1913;
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.changelog-card p {
+  font-weight: 100;
+}
+
+.changelog-card div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.changelog-span1 {
+  border: 0.5px solid #9b9a98;
+  border-radius: 20px;
+  padding: 1px 10px;
+}
+
+.changelog-card span {
+  color: #9b9a98;
+}
+
+.changelog a,
+.joinus a {
+  color: #f54e00;
+  text-decoration: none;
+}
+
+.changelog a:hover,
+.joinus a:hover {
+  color: #b94006;
+}
+
+.joinus {
+  width: 87%;
+  margin: 140px auto;
+  padding: 20px 20px;
+  background-color: #1b1913;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.joinus img {
+  width: 70%;
+  border-radius: 5px;
+}
+
+.joinus div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.joinus div p {
+  font-size: 22px;
 }
