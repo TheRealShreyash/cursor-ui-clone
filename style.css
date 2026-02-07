@@ -428,13 +428,15 @@ nav {
 }
 
 .changelog a,
-.joinus a {
+.joinus a,
+.highlight-cards a {
   color: #f54e00;
   text-decoration: none;
 }
 
 .changelog a:hover,
-.joinus a:hover {
+.joinus a:hover,
+.highlight-cards a:hover {
   color: #b94006;
 }
 
@@ -461,4 +463,100 @@ nav {
 
 .joinus div p {
   font-size: 22px;
+}
+
+.recent-highlights {
+  background-color: #1b1913;
+}
+
+.highlight-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 30px;
+  display: flex;
+}
+
+.highlight-container h2 {
+  font-size: 15px;
+  font-weight: 100;
+  width: 35%;
+}
+
+.highlight-cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.highlight-card {
+  background-color: #201e18;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  width: 60%;
+  gap: 20px;
+  color: #72716d;
+  font-weight: 100;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.highlight-card:hover {
+  background-color: #26241e;
+}
+
+.highlight-head {
+  color: #fff;
+}
+
+.final-cta {
+  width: 90%;
+  margin: 90px auto;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.final-cta h1 {
+  font-size: 60px;
+}
+
+footer {
+  background-color: #1b1913;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-cols {
+  width: 90%;
+  margin: 50px auto 80px auto;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-col h5 {
+  color: #999896;
+}
+
+.footer-col a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.last-footer {
+  width: 90%;
+  margin: 0 auto 20px auto;
+  padding: 10px 30px;
+  color: #999896;
 }
