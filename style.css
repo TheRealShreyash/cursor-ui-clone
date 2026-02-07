@@ -559,4 +559,43 @@ footer {
   margin: 0 auto 20px auto;
   padding: 10px 30px;
   color: #999896;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.themes {
+  background-color: #26241e;
+  display: flex;
+  gap: 10px;
+  padding: 5px 8px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.system-theme-btn {
+  background-color: #3a3833;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.themes button svg {
+  width: 15px;
+  height: 15px;
+}
+
+.f-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.languages {
+  background-color: #26241e;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
 }
